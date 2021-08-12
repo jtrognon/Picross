@@ -1,0 +1,25 @@
+{
+  "name": "Picross",
+  "version": "1.0.0",
+  "description": "documentation : \r - https://kdebowski.com/gamedev/puzzles/2018/06/11/picrosses-pt1.html",
+  "main": "index.js",
+  "dependencies": {
+    "jest": "^27.0.6",
+    "jimp": "^0.16.1"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "jest  --coverage"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/jtrognon/Picross.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/jtrognon/Picross/issues"
+  },
+  "homepage": "https://github.com/jtrognon/Picross#readme"
+}
