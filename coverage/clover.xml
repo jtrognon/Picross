@@ -1,17 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<coverage generated="1628804867890" clover="3.2.0">
-  <project timestamp="1628804867890" name="All files">
+<coverage generated="1628805409488" clover="3.2.0">
+  <project timestamp="1628805409488" name="All files">
     <metrics statements="10" coveredstatements="9" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1" elements="17" coveredelements="15" complexity="0" loc="10" ncloc="10" packages="1" files="1" classes="1"/>
     <file name="matchGrid.js" path="C:\JS\Picross\TS\matchGrid.js">
       <metrics statements="10" coveredstatements="9" conditionals="6" coveredconditionals="5" methods="1" coveredmethods="1"/>
       <line num="3" count="2" type="stmt"/>
       <line num="4" count="2" type="stmt"/>
-      <line num="7" count="4" type="cond" truecount="3" falsecount="1"/>
+      <line num="7" count="6" type="cond" truecount="3" falsecount="1"/>
       <line num="8" count="0" type="stmt"/>
-      <line num="12" count="4" type="stmt"/>
-      <line num="13" count="10" type="stmt"/>
-      <line num="14" count="36" type="cond" truecount="2" falsecount="0"/>
-      <line num="15" count="2" type="stmt"/>
+      <line num="12" count="6" type="stmt"/>
+      <line num="13" count="18" type="stmt"/>
+      <line num="14" count="66" type="cond" truecount="2" falsecount="0"/>
+      <line num="15" count="4" type="stmt"/>
       <line num="19" count="2" type="stmt"/>
       <line num="21" count="2" type="stmt"/>
     </file>
