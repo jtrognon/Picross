@@ -1,6 +1,6 @@
 //https://jestjs.io/fr/docs/expect
 
-import { matchGrid } from "@ts/matchGrid";
+import { matchGrid } from "../TS/matchGrid";
 
 test("check if the 2 grids are the same", () => {
   let grid = [
@@ -11,6 +11,15 @@ test("check if the 2 grids are the same", () => {
   ];
   let answer = [
     [0, 1, 0, 0],
+    [0, 1, 1, 0],
+    [1, 1, 1, 1],
+    [0, 1, 1, 0],
+  ];
+
+  expect(matchGrid(grid, answer)).toBeFalsy();
+
+  answer = [
+    [0, 0, 0, 0],
     [0, 1, 1, 0],
     [1, 1, 1, 1],
     [0, 1, 1, 0],

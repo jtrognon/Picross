@@ -1,7 +1,7 @@
 //tsc --init
 
 //return true if grids are the same otherwise return false
-export const matchGrid = (grid: number[][], answer: number[][]) => {
+export function matchGrid(grid: number[][], answer: number[][]): boolean {
   if (grid.length != answer.length || grid[0].length != answer[0].length) {
     return false;
   }
@@ -18,4 +18,4 @@ export const matchGrid = (grid: number[][], answer: number[][]) => {
   }
 
   return true;
-};
+}

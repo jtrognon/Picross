@@ -2,7 +2,7 @@
   "name": "Picross",
   "version": "1.0.0",
   "description": "documentation : \r - https://kdebowski.com/gamedev/puzzles/2018/06/11/picrosses-pt1.html",
-  "main": "index.js",
+  "main": "index.ts",
   "dependencies": {
     "jimp": "^0.16.1"
   },
@@ -26,5 +26,13 @@
   "bugs": {
     "url": "https://github.com/jtrognon/Picross/issues"
   },
-  "homepage": "https://github.com/jtrognon/Picross#readme"
+  "homepage": "https://github.com/jtrognon/Picross#readme",
+
+  "jest": {
+    "transform": {
+      ".(ts|tsx)": "<rootDir>/node_modules/ts-jest/preprocessor.js"
+    },
+    "testRegex": "(/__tests__/.*|\\.(test|spec))\\.(ts|tsx|js)$",
+    "moduleFileExtensions": ["ts", "tsx", "js"]
+  }
 }

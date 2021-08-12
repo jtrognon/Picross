@@ -3,7 +3,7 @@
 Object.defineProperty(exports, "__esModule", { value: true });
 exports.matchGrid = void 0;
 //return true if grids are the same otherwise return false
-var matchGrid = function (grid, answer) {
+function matchGrid(grid, answer) {
     if (grid.length != answer.length || grid[0].length != answer[0].length) {
         return false;
     }
@@ -17,5 +17,5 @@ var matchGrid = function (grid, answer) {
         }
     }
     return true;
-};
+}
 exports.matchGrid = matchGrid;
