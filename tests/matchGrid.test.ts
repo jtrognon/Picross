@@ -1,6 +1,6 @@
 //https://jestjs.io/fr/docs/expect
 
-import { matchGrid } from "./matchGrid";
+import { matchGrid } from "@ts/matchGrid";
 
 test("check if the 2 grids are the same", () => {
   let grid = [

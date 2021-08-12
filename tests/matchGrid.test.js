@@ -1,7 +1,7 @@
 "use strict";
 //https://jestjs.io/fr/docs/expect
 Object.defineProperty(exports, "__esModule", { value: true });
-var matchGrid_1 = require("./matchGrid");
+var matchGrid_1 = require("@ts/matchGrid");
 test("check if the 2 grids are the same", function () {
     var grid = [
         [0, 0, 0, 0],
