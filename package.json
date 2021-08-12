@@ -4,12 +4,17 @@
   "description": "documentation : \r - https://kdebowski.com/gamedev/puzzles/2018/06/11/picrosses-pt1.html",
   "main": "index.js",
   "dependencies": {
-    "jest": "^27.0.6",
     "jimp": "^0.16.1"
   },
-  "devDependencies": {},
+  "devDependencies": {
+    "@types/jest": "^27.0.0",
+    "jest": "^27.0.6",
+    "ts-jest": "^27.0.4",
+    "typescript": "^4.3.5"
+  },
   "scripts": {
-    "test": "jest  --coverage"
+    "test": "jest  --coverage",
+    "test:watch": "jest --watch"
   },
   "repository": {
     "type": "git",
