@@ -2,10 +2,6 @@
 
 //return true if grids are the same otherwise return false
 export function matchGrid(grid: number[][], answer: number[][]): boolean {
-  if (grid.length != answer.length || grid[0].length != answer[0].length) {
-    return false;
-  }
-
   let i: number;
   let j: number;
 

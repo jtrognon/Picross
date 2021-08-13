@@ -26,13 +26,4 @@ test("check if the 2 grids are the same", () => {
   ];
 
   expect(matchGrid(grid, answer)).toBeTruthy();
-
-  answer = [
-    [0, 0, 0, 0],
-    [0, 1, 1, 0],
-    [1, 1, 1, 1],
-    [0, 1, 0],
-  ];
-
-  expect(matchGrid(grid, answer)).toBeFalsy();
 });
